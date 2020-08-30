@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*チャプター：全体の設定*/
+body {
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    color: #333;
+}
+header {
+    background-color:#ffcccc;
+}
+#wrapper {
+    display: flex;
+    justify-content:space-between;
+}
+#main {
+    float: left;
+    width: 700px;
+    background-color: #ccffcc;
+}
+#menu {
+    float: right;
+    width: 300px;
+    background-color: #ccccff;
+}
+footer {
+    background-color: #ffccff;
+}
